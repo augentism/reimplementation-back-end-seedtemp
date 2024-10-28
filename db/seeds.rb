@@ -32,7 +32,7 @@ begin
             password: "password",
             full_name: Faker::Name.name,
             institution_id: 1,
-            role_id: Faker::Number.between(from: 2, to: 4)
+            role_id: Faker::Number.between(from: 2, to: 5)
         ).id
     end
 rescue ActiveRecord::RecordInvalid => e
